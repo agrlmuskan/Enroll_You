@@ -4,7 +4,9 @@
   "description": "Simple KnowledgeBase App",
   "main": "App.js",
   "scripts": {
-    "start": "node app"
+    "build": "Node_App",
+    "start": "node app",
+    "pug": "node node_modules/pug-cli/index.js views/ --out ./"
   },
   "author": "Muskan Agrawal",
   "license": "ISC",
